@@ -1,0 +1,83 @@
+.content {
+    width: 300px;
+    height: 400px;
+    background-color: aquamarine;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding: 3px;
+}
+img {
+    width: 300px;
+    height: 200px;
+    background: transparent;
+    align-self: center;
+}
+.title {
+    color: coral;
+}
+.price {
+    color: darkcyan;
+}
+.rating {
+    color: goldenrod;
+}
+@media screen and (max-width: 880px) {
+    .content {
+        width: 250px;
+        height: 350px;
+    }
+    img {
+        width: 250px;
+        height: 125px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .content {
+        width: 200px;
+        height: 300px;
+    }
+    img {
+        width: 200px;
+        height: 150px;
+    }
+    ul > li > div > p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .content {
+        width: 170px;
+        height: 250px;
+    }
+    img {
+        width: 170px;
+        height: 100px;
+    }
+    ul > li > div > p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 443px) {
+    .content {
+        width: 150px;
+        height: 190px;
+    }
+    img {
+        width: 150px;
+        height: 90px;
+    }
+    ul > li > div > p {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .content {
+        width: 120px;
+        height: 150px;
+    }
+    img {
+        width: 120px;
+        height: 70px;
+    }
+}
